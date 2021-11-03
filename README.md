@@ -30,3 +30,21 @@ Lesson 12.5.1: Deploy your project to GitHub Pages
 ################################
 
 Delivreable 4: Customize the Dashboard
+
+README.md
+In this project, we're:
+- Using plotly.js to create basic plots
+- Using D3.json() to fetch external data sources (CSV, API)
+- Parsing data in JSON format
+- Transforming data with JavaScript
+- Using JavaSript's Math library to manipulate numbers
+- Using event handlers in JavaScript for interactive features (buttons, drop down menus)
+
+Our tools:
+VS code: to create and edit HTML and JavaScript files
+Web browser: such as Chrome, to view, inspect and debug visualizations.
+Terminal interface: to run local server
+GitHub: to deploy final data visualization
+
+
+
