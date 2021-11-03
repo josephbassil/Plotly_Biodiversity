@@ -46,5 +46,26 @@ Web browser: such as Chrome, to view, inspect and debug visualizations.
 Terminal interface: to run local server
 GitHub: to deploy final data visualization
 
+in our basic index.html, we will add: <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+which will be our CDN (Content Delivery Network) to our latest plotly library version
+in our <body> section, we wanna create a simple plot that extract the data from plots.js
+  We accomplish that by create a </div> with an ID "plotArea" and used </script> to refer to the file  plots.js which contains the JavaScript code and data:
+   
+  index.html:
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Basic Charts</title>
+   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+   <div id="plotArea"></div>
+   <script src="plots.js"></script>.    //plots.js file contains this code: Plotly.newPlot("plotArea", [{x: [1,2,3], y:[10,20,30]}]);
+</body>
+</html>
+
 
 
