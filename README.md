@@ -28,4 +28,5 @@ Lesson 12.2.2: Create a trace object and layout for a chart
 Lesson 12.5.1: Deploy your project to GitHub Pages
 
 ################################
+
 Delivreable 4: Customize the Dashboard
